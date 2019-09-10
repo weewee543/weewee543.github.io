@@ -12,15 +12,7 @@ $(document).ready(function () {
         startDelay: 1000,
         showCursor: false
     });
-
-    const typed2 = new Typed(".typed2", {
-        strings: [, "Hello =)"],
-        typeSpeed: 90,
-        loop: true,
-        startDelay: 1000,
-        showCursor: false
-    })
-
+    
     AOS.init();
 
     // You can also pass an optional settings object
