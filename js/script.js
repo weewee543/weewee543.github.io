@@ -14,7 +14,7 @@ $(document).ready(function () {
     });
 
     const typed2 = new Typed(".typed2", {
-        strings: [, "Hello =)", "Welcome to My Portolio"],
+        strings: [, "Hello =)"],
         typeSpeed: 90,
         loop: true,
         startDelay: 1000,
