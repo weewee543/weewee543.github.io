@@ -83,7 +83,7 @@ body {
 }
 
 .html {
-    max-height: 128px
+    width: 100%
 }
 
 .contactButton {
@@ -165,7 +165,7 @@ body {
 
 .sticky {
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
 }
 
@@ -177,3 +177,9 @@ body {
 .nav-link {
     color: black;
 }
+
+@media (max-width: 979px) {
+    .x-navbar-fixed-top, .x-navbar-fixed-left, .x-navbar-fixed-right {
+    position: fixed;
+    }
+    }
