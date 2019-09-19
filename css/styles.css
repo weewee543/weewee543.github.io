@@ -122,6 +122,10 @@ a:link {
     padding: 125px 0;
 }
 
+.section h5 {
+    padding-top: 125px
+}
+
 .skillIcon {
     width: 210px;
     height: 150px
@@ -171,10 +175,6 @@ a:link {
 
 .card-text {
     color: black;
-}
-
-.typed2 {
-    height: 100px;
 }
 
 .techstackgrid {
